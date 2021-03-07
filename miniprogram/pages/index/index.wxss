@@ -1,0 +1,15 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.weui-cell_input {
+  margin-top: 10rpx;
+}

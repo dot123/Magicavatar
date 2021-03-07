@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page__bd">
+    <image style="width: 300px; height: 300px; background-color: #ffffff;" class="image_frame"
+      src="data:image/svg+xml;base64,{{imgData}}" mode="scaleToFill"> </image>
+  </view>
+  <view class="weui-cell_input">
+    <input class="weui-input" type="string" placeholder="{{inputValue}}" bindinput="bindKeyInput"  maxlength="-1" bindfocus = "onFocus" always-embed = true/>
+  </view>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+  <button class="mini-btn" type="default" plain="true" size="default" bindtap="onRefresh">刷新</button>
+  <button class="mini-btn" type="default" plain="true" size="default" open-type="share">分享</button>
+  <button class="mini-btn" type="default" plain="true" size="default" bindtap="onSave">保存</button>
+</view>
